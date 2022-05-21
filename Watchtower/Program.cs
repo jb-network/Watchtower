@@ -19,8 +19,8 @@ if (yCoordinate > 0)
     else if (xCoordinate == 0) Console.WriteLine("The enemy is to the north!");
     
     else Console.WriteLine("The enemy is to the northeast!");
-    
 }
+
 else if (yCoordinate == 0)
 {
     if (xCoordinate < 0) Console.WriteLine("The enemy is to the west!");
@@ -28,8 +28,8 @@ else if (yCoordinate == 0)
     else if (xCoordinate == 0) Console.WriteLine("The enemy on top of us!");
 
     else Console.WriteLine("The enemy is to the east!");
-
 }
+
 else // The only choice left is yCoordinate < 0
 {
     if (xCoordinate < 0) Console.WriteLine("The enemy is to the southwest!");
